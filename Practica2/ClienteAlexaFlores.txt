@@ -1,0 +1,25 @@
+Museo de Cultura Japonesa 王朝
+- Pagina principal: 
+    - Vista general del museo:
+        - Exposiciones recientes
+        - Imagenes presentando el museo
+        - Vision/Mision
+        - Historia (edificio, piezas, fundación, datos importantes)
+        - Cronograma de eventos/expocisiones temporales/actividades organizadas por el museo
+    - Los medios de contacto/redes sociales en la base de la pagina web
+- Exposiciones:
+    - Separado por exposiciones en secciones (especificar si son temporales o permanentes)
+    - Breve descripcion de cada una
+    - Varias imagenes de las expocisiones 
+    - Opción para obtener más información de la expocisión elegida donde se muestre una descripcion mas larga y detallada
+- Galeria:
+    -   Fotografías del museo
+        - edificio
+        - expocisiones importantes
+        - expocisiones mas destacadas
+        - actividades que se realizan en el museo
+        - reconocimientos
+        - reliquias 
+
+* Todas las vistas tienen que verse limpias, bien organizadas e intuitivas para quienes busquen visitar el museo y conocer mas de éste.
+  Con colores adecuos al tema del museo. Que se vea atractivo y estético *
