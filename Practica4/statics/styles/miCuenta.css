@@ -1,0 +1,50 @@
+/* = tipografia
+-------------------------------------------------------------------*/
+@font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url("../fonts/SourseSansPro/SourceSansPro-Regular.ttf");
+    font-family: "SourceSansPro-SemiBold";
+    src: url("../fonts/SourseSansPro/SourceSansPro-SemiBold.ttf");
+    font-family: "IstokWeb-Regular";
+    src: url("../fonts/IstokWeb/IstokWeb-Regular.ttf");
+}
+#unCuarto
+{
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    left: 5%;
+    right: 5%;
+    top: 15%;
+    border-radius: 1em 1em;
+    background-color: #FFAD2F;
+}
+#tresCuartos
+{
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    left: 35%;
+    right: 5%;
+    top: 15%;
+    border-radius: 1em 1em;
+    background-color: #6C84F5;
+}
+
+#miCuenta
+{
+    display: inline-block;
+    top: 40%;
+    font-family: "SourceSansPro-Regular";
+    font-size: 30px;
+    left: 50%;
+    background-color: #6C84F5;
+}
+#icono
+{
+    height: 100px;
+    width: 100px;
+    border:none;
+    background-color: transparent;
+}
+}
