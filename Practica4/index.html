@@ -6,17 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./statics/styles/barraNav.css" rel="stylesheet" type="text/css">
+    <link href="./statics/styles/body.css" rel="stylesheet" type="text/css">
     <!--<link href="libs/fontawesome/css/all.css" rel="stylesheet" type="text/css">-->
     <link rel="stylesheet" href=".\libs\fontawesome-free-5.15.3-web\css\all.css">
 </head>
 <body>
-    <div>
-        Expressalia
-        <input type="text" name="buscador" placeholder="Buscar...">
-        <button type="button" name="button" ><i class="fas fa-search"></i></button>
-        <button type="button" name="button" ><i class="far fa-user-circle"></i></button>
-        <button type="button" name="button" ><i class="fas fa-shopping-cart"></i></button>
+    <div id="nav">
+        <div id="logo">Expressalia</div>
+        <div id="nav1">
+            <form action="./miCuenta.html">
+                <input type="text" name="buscador" placeholder="Buscar...">
+                <button type="button" name="button" id="search"><i class="fas fa-search"></i></button>
+                <button type="button" name="button" id="icon"><i class="far fa-user-circle"></i></button>
+                <button type="submit" name="button" id="carrito"><i class="fas fa-shopping-cart"></i></button>
+            </form>
+        </div>
     </div>
-   
+   <div id="anuncio">
+        <div id="derecha"> 
+            <div id="ladouno">
+                <div id="hasta">HASTA</div>
+                <div id="veinte">20%</div>
+                <div id="descuento">DE DESCUENTO</div>
+            </div>
+            <div id="ladodos">
+                <div id="todos">EN TODOS LOS</div>
+                <div id="elec">ELECTRONICOS</div>
+            </div>
+        </div>
+        <div id="izquierda"><img id="tv" src="./statics/img/tv.jpg" alt="Mi imagen"></div>
+   </div>
+   <div id="sug"><div id="tit1">Sugerencias</div></div>
+   <div id="sugerencias">
+       <div id="img1"><img id="uno" src="./statics/img/mac.jpg" alt="Mi imagen"></div>
+       <div id="img2"><img id="dos" src="./statics/img/bocina.jpg" alt="Mi imagen"></div>
+       <div id="img3"><img id="tres" src="./statics/img/escritorio.jpg" alt="Mi imagen"></div>
+       <div id="img4"><img id="cuatro" src="./statics/img/silla.jpg" alt="Mi imagen"></div>
+   </div>
+   <div id="rec"><div id="tit2">Visto recientemente</div></div>
+   <div id="recientes">
+        <div id="img5"><img id="cinco" src="./statics/img/audifonos.jpg" alt="Mi imagen"></div>
+        <div id="img6"><img id="seis" src="./statics/img/watch.jpg" alt="Mi imagen"></div>
+        <div id="img7"><img id="siete" src="./statics/img/lentes.jpg" alt="Mi imagen"></div>
+   </div>
+   <div>
+
+   </div>
+   <div></div>
+   <div></div>
 </body>
 </html>
