@@ -21,17 +21,6 @@
     right: 5%;
     top: 15%;
 }
-#tresCuartos
-{
-    position: absolute;
-    width: 60%;
-    height: 80%;
-    left: 35%;
-    right: 5%;
-    top: 15%;
-    border-radius: 1em 1em;
-    background-color: #6C84F5;
-}
 #miCuenta,#nom,#mail,#dir,#text1,#text2,#text3,#text4
 {
     font-family: "SourceSansPro-Regular";
@@ -52,19 +41,20 @@
     position: relative;
     top: 70%;
     left: 9%;
+    font-size: 20px;
 }
 #miCuenta
 {
     position: relative;
     display: inline-block;
-    top: 10%;
+    top: 5%;
     font-size: 50px;
     left: 25%;
 }
 #icono
 {
     position: relative;
-    top: 13%;
+    top: 5%;
     left: 29%;
     height: 100px;
     width: 100px;
@@ -83,13 +73,132 @@
 }
 #nombre
 {
-    top: 50%;
+    top: 45%;
 }
 #correo
 {
-    top: 65%;
+    top: 60%;
 }
 #direccion
 {
-    top: 80%;
+    top: 75%;
+}
+
+#tresCuartos
+{
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    left: 35%;
+    right: 5%;
+    top: 15%;
+    border-radius: 1em 1em;
+}
+#seguridad,#pago
+{
+    position: absolute;
+    left: 10%;
+    width: 40%;
+    height: 35%;
+    background-color: #6C84F5;
+}
+#misPedidos,#ventas
+{
+    position: absolute;
+    left: 55%;
+    width: 40%;
+    height: 35%;
+    background-color: #6C84F5;
+}
+#seguridad,#misPedidos
+{
+    top: 10%;
+}
+#pago,#ventas
+{
+    top: 50%;
+}
+#text1
+{
+    position: relative;
+    font-size: 30px;
+    left: 32%;
+    top: 8%;
+    color: white;
+}
+#text2
+{
+    position: relative;
+    font-size: 30px;
+    left: 29%;
+    top: 8%;
+    color: white;
+}
+#text3
+{
+    position: relative;
+    font-size: 30px;
+    left: 21%;
+    top: 8%;
+    color: white;
+}
+#text4
+{
+    position: relative;
+    font-size: 30px;
+    left: 38%;
+    top: 8%;
+    color: white;
+}
+#img1
+{
+    position: relative;
+    left: 40%;
+    top: 16%;
+}
+#img2
+{
+    position: relative;
+    left: 35%;
+    top: 16%;
+}
+#img3
+{
+    position: relative;
+    left: 38%;
+    top: 16%;
+}
+#img4
+{
+    position: relative;
+    left: 36%;
+    top: 16%;
+}
+#text12
+{
+    position: relative;
+    left: 14%;
+    top: 30%;
+    color: white;
+}
+#text22
+{
+    position: relative;
+    left: 28%;
+    top: 30%;
+    color: white;
+}
+#text32
+{
+    position: relative;
+    left: 14%;
+    top: 30%;
+    color: white;
+}
+#text42
+{
+    position: relative;
+    left: 20%;
+    top: 30%;
+    color: white;
 }
