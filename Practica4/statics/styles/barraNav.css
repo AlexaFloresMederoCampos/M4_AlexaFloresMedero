@@ -3,11 +3,69 @@
 /* = tipografia
 -------------------------------------------------------------------*/
 @font-face {
-    font-family: "SourceSansPro-Regular","Courier", monospace;
+    font-family: "SourceSansPro-Regular";
     src: url("../fonts/SourseSansPro/SourceSansPro-Regular.ttf");
+    font-family: "SourceSansPro-SemiBold";
+    src: url("../fonts/SourseSansPro/SourceSansPro-SemiBold.ttf");
 }
 /* = nav
 -------------------------------------------------------------------*/
-button{
-    outline: none;
+#logo{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 2%;
+    font-family: "SourceSansPro-SemiBold";
+    font-size: 35px;
+}
+#nav{
+    position: absolute;
+    width: 90%;
+    height: 7%;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+    border-radius: 1em 1em;
+    background-color: #FFAD2F;
+}
+
+input[type=text]
+{
+    left: 15%;
+    right: 5%;
+    top: 20%;
+    position:absolute;
+    width: 75%;
+    height: 50%;
+    border: none;
+}
+#search
+{
+    position:relative;
+    left: 91%;
+    top: 40%;
+    height: 30px;
+    width: 40px;
+    border:none;
+    background-color: #6C84F5;
+}
+#icon
+{
+    position:relative;
+    left: 90%;
+    top: 40%;
+    height: 50px;
+    width: 50px;
+    border:none;
+    background-color: transparent;
+}
+#carrito
+{
+    position:relative;
+    left: 89%;
+    top: 40%;
+    height: 50px;
+    width: 50px;
+    border:none;
+    background-color: transparent;
 }
