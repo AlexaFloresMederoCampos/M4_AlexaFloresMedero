@@ -3,21 +3,23 @@
 @font-face {
     font-family: "SourceSansPro-Regular";
     src: url("../fonts/SourseSansPro/SourceSansPro-Regular.ttf");
+}
+@font-face {
     font-family: "SourceSansPro-SemiBold";
     src: url("../fonts/SourseSansPro/SourceSansPro-SemiBold.ttf");
+}
+@font-face {
     font-family: "IstokWeb-Regular";
     src: url("../fonts/IstokWeb/IstokWeb-Regular.ttf");
 }
 #unCuarto
 {
     position: absolute;
-    width: 30%;
+    width: 25%;
     height: 80%;
     left: 5%;
     right: 5%;
     top: 15%;
-    border-radius: 1em 1em;
-    background-color: #FFAD2F;
 }
 #tresCuartos
 {
@@ -30,21 +32,64 @@
     border-radius: 1em 1em;
     background-color: #6C84F5;
 }
-
+#miCuenta,#nom,#mail,#dir,#text1,#text2,#text3,#text4
+{
+    font-family: "SourceSansPro-Regular";
+}
+#nom,#mail,#dir
+{
+    position: relative;
+    font-size: 25px;
+    left: 5%;
+    top: 5%;
+}
+#texto,#texto2,#texto3,#text12,#text22,#text32,#text42
+{
+    font-family: "IstokWeb-Regular";
+}
+#texto,#texto2,#texto3
+{
+    position: relative;
+    top: 70%;
+    left: 9%;
+}
 #miCuenta
 {
+    position: relative;
     display: inline-block;
-    top: 40%;
-    font-family: "SourceSansPro-Regular";
-    font-size: 30px;
-    left: 50%;
-    background-color: #6C84F5;
+    top: 10%;
+    font-size: 50px;
+    left: 25%;
 }
 #icono
 {
+    position: relative;
+    top: 13%;
+    left: 29%;
     height: 100px;
     width: 100px;
     border:none;
     background-color: transparent;
 }
+#nombre,#correo,#direccion
+{
+    position: absolute;
+    width: 70%;
+    height: 5%;
+    left: 15%;
+    right: 5%;
+    border-radius: 1em 1em;
+    background-color: #FFAD2F;
+}
+#nombre
+{
+    top: 50%;
+}
+#correo
+{
+    top: 65%;
+}
+#direccion
+{
+    top: 80%;
 }
