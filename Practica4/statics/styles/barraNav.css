@@ -41,17 +41,17 @@ input[type=text]
 }
 #search
 {
-    position:relative;
-    left: 91%;
+    position:absolute;
+    left: 90%;
     top: 40%;
-    height: 30px;
+    height: 35px;
     width: 40px;
     border:none;
     background-color: #6C84F5;
 }
 #icon
 {
-    position:relative;
+    position:absolute;
     left: 90%;
     top: 40%;
     height: 50px;
@@ -61,7 +61,7 @@ input[type=text]
 }
 #carrito
 {
-    position:relative;
+    position:absolute;
     left: 89%;
     top: 40%;
     height: 50px;
