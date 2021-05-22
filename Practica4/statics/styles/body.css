@@ -39,13 +39,23 @@
 }
 #ladouno
 {
-    float: left;
+    position: relative;
+    top: 15%;
     left: 10%;
+}
+#hasta,#descuento,#todos,#elec
+{
+    font-size: 30px;
+}
+#veinte
+{
+    font-size: 50px;
 }
 #ladodos
 {
-    float: right;
-    left: 50%;
+    position: relative;
+    top: -40%;
+    left: 55%;
 }
 #hasta,#veinte,#descuento,#todos,#elec
 {
@@ -110,7 +120,7 @@
     top: 8%;
     width: 43%;
     height: 40%;
-    border: 2px solid #ff2088;
+    border: 2px solid #FFAD2F;
 }
 #img2
 {
@@ -119,7 +129,7 @@
     top: 52%;
     width: 43%;
     height: 40%;
-    border: 2px solid #ff2088;
+    border: 2px solid #FFAD2F;
 }
 #img3,#img6
 {
@@ -128,7 +138,7 @@
     top: 8%;
     width: 43%;
     height: 40%;
-    border: 2px solid #ff2088;
+    border: 2px solid #FFAD2F;
 }
 #img4
 {
@@ -137,7 +147,7 @@
     top: 52%;
     width: 43%;
     height: 40%;
-    border: 2px solid #ff2088;
+    border: 2px solid #FFAD2F;
 }
 #img7
 {
