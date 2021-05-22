@@ -1,0 +1,151 @@
+/* = tipografia
+-------------------------------------------------------------------*/
+@font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url("../fonts/SourseSansPro/SourceSansPro-Regular.ttf");
+    font-family: "SourceSansPro-SemiBold";
+    src: url("../fonts/SourseSansPro/SourceSansPro-SemiBold.ttf");
+}
+#izquierda
+{
+    position: absolute;
+    left: 52%;
+    right: 5%;
+    top: 15%;
+    width: 43%;
+    height: 25%;
+    border-radius: 1em 1em 1em 1em;
+    background-color: #FFAD2F;
+}
+#tv
+{
+    position: absolute;
+    left: 0%;
+    right: 5%;
+    top: 0%;
+    width: 100%;
+    height: 100%; 
+}
+
+#derecha
+{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 50%;
+    height: 25%;
+    border-radius: 1em 1em 1em 1em;
+    background-color: #6C84F5;
+}
+#ladouno
+{
+    float: left;
+    left: 10%;
+}
+#ladodos
+{
+    float: right;
+    left: 50%;
+}
+#hasta,#veinte,#descuento,#todos,#elec
+{
+    font-family: "SourceSansPro-SemiBold";
+    color: white;
+}
+#sugerencias
+{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    width: 43%;
+    height: 50%;
+}
+#recientes
+{
+    position: absolute;
+    left: 52%;
+    right: 5%;
+    top: 50%;
+    width: 43%;
+    height: 50%;
+
+}
+#sug,#rec
+{
+    position: absolute;
+    top: 45%;
+    width: 43%;
+    height: 5%;
+    border-radius: 1em 1em;
+    background-color: #FFAD2F;
+}
+#sug
+{
+    left: 5%;
+}
+#rec
+{
+    left: 52%;
+}
+#tit1,#tit2
+{
+    
+    font-family: "SourceSansPro-SemiBold";
+    font-size: 20px;
+    text-align: center;
+}
+#uno,#dos,#tres,#cuatro,#cinco,#seis,#siete
+{
+    position: absolute;
+    left: 0%;
+    right: 5%;
+    top: 0%;
+    width: 100%;
+    height: 100%; 
+}
+#img1,#img5
+{
+    position: absolute;
+    left: 5%;
+    top: 8%;
+    width: 43%;
+    height: 40%;
+    border: 2px solid #ff2088;
+}
+#img2
+{
+    position: absolute;
+    left: 5%;
+    top: 52%;
+    width: 43%;
+    height: 40%;
+    border: 2px solid #ff2088;
+}
+#img3,#img6
+{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    width: 43%;
+    height: 40%;
+    border: 2px solid #ff2088;
+}
+#img4
+{
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    width: 43%;
+    height: 40%;
+    border: 2px solid #ff2088;
+}
+#img7
+{
+    position: absolute;
+    left: 5%;
+    top: 52%;
+    width: 88%;
+    height: 40%;
+    border: 2px solid #ff2088;
+}
+
