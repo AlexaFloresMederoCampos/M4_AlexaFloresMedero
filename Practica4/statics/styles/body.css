@@ -6,6 +6,21 @@
     font-family: "SourceSansPro-SemiBold";
     src: url("../fonts/SourseSansPro/SourceSansPro-SemiBold.ttf");
 }
+/* = texto
+-------------------------------------------------------------------*/
+#tit1,#tit2
+{
+    font-family: "SourceSansPro-SemiBold";
+    font-size: 20px;
+    text-align: center;
+}
+#hasta,#veinte,#descuento,#todos,#elec
+{
+    font-family: "SourceSansPro-SemiBold";
+    color: white;
+}
+/* = anuncio (parte derecha(esq lo escribi al reves jiji))
+-------------------------------------------------------------------*/
 #izquierda
 {
     position: absolute;
@@ -26,7 +41,8 @@
     width: 100%;
     height: 100%; 
 }
-
+/* = anuncio (parte izquierda)
+-------------------------------------------------------------------*/
 #derecha
 {
     position: absolute;
@@ -37,6 +53,8 @@
     border-radius: 1em 1em 1em 1em;
     background-color: #6C84F5;
 }
+/* = anuncio (parte izquierda(izquierda)
+-------------------------------------------------------------------*/
 #ladouno
 {
     position: relative;
@@ -51,17 +69,28 @@
 {
     font-size: 50px;
 }
+/* = anuncio (parte izquierda(derecha)
+-------------------------------------------------------------------*/
 #ladodos
 {
     position: relative;
     top: -40%;
     left: 55%;
 }
-#hasta,#veinte,#descuento,#todos,#elec
+
+/* = parte abajo
+-------------------------------------------------------------------*/
+#sug,#rec
 {
-    font-family: "SourceSansPro-SemiBold";
-    color: white;
+    position: absolute;
+    top: 45%;
+    width: 43%;
+    height: 5%;
+    border-radius: 1em 1em;
+    background-color: #FFAD2F;
 }
+/* = sugerencias (parte abajo, 50% izquierda)
+-------------------------------------------------------------------*/
 #sugerencias
 {
     position: absolute;
@@ -70,6 +99,12 @@
     width: 43%;
     height: 50%;
 }
+#sug
+{
+    left: 5%;
+}
+/* = receintes (parte abajo, 50% derecha)
+-------------------------------------------------------------------*/
 #recientes
 {
     position: absolute;
@@ -80,30 +115,12 @@
     height: 50%;
 
 }
-#sug,#rec
-{
-    position: absolute;
-    top: 45%;
-    width: 43%;
-    height: 5%;
-    border-radius: 1em 1em;
-    background-color: #FFAD2F;
-}
-#sug
-{
-    left: 5%;
-}
 #rec
 {
     left: 52%;
 }
-#tit1,#tit2
-{
-    
-    font-family: "SourceSansPro-SemiBold";
-    font-size: 20px;
-    text-align: center;
-}
+/* = posicionamiento imagenes (divs)
+-------------------------------------------------------------------*/
 #uno,#dos,#tres,#cuatro,#cinco,#seis,#siete
 {
     position: absolute;
@@ -113,6 +130,8 @@
     width: 100%;
     height: 100%; 
 }
+/* = posicionamiento imagenes
+-------------------------------------------------------------------*/
 #img1,#img5
 {
     position: absolute;

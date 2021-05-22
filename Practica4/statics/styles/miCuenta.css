@@ -12,6 +12,18 @@
     font-family: "IstokWeb-Regular";
     src: url("../fonts/IstokWeb/IstokWeb-Regular.ttf");
 }
+/* = fuente
+-------------------------------------------------------------------*/
+#miCuenta,#nom,#mail,#dir,#text1,#text2,#text3,#text4
+{
+    font-family: "SourceSansPro-Regular";
+}
+#texto,#texto2,#texto3,#text12,#text22,#text32,#text42
+{
+    font-family: "IstokWeb-Regular";
+}
+/* = primer cuarto de la pagina
+-------------------------------------------------------------------*/
 #unCuarto
 {
     position: absolute;
@@ -21,20 +33,14 @@
     right: 5%;
     top: 15%;
 }
-#miCuenta,#nom,#mail,#dir,#text1,#text2,#text3,#text4
-{
-    font-family: "SourceSansPro-Regular";
-}
+/* = posicionamiento
+-------------------------------------------------------------------*/
 #nom,#mail,#dir
 {
     position: relative;
     font-size: 25px;
     left: 5%;
     top: 5%;
-}
-#texto,#texto2,#texto3,#text12,#text22,#text32,#text42
-{
-    font-family: "IstokWeb-Regular";
 }
 #texto,#texto2,#texto3
 {
@@ -83,7 +89,8 @@
 {
     top: 75%;
 }
-
+/* = tres cuartos de la pagina
+-------------------------------------------------------------------*/
 #tresCuartos
 {
     position: absolute;
@@ -94,6 +101,8 @@
     top: 15%;
     border-radius: 1em 1em;
 }
+/* = posicionamiento
+-------------------------------------------------------------------*/
 #seguridad,#pago
 {
     position: absolute;
@@ -118,6 +127,8 @@
 {
     top: 50%;
 }
+/* = texto
+-------------------------------------------------------------------*/
 #text1
 {
     position: relative;
@@ -150,30 +161,6 @@
     top: 8%;
     color: white;
 }
-#img1
-{
-    position: relative;
-    left: 40%;
-    top: 16%;
-}
-#img2
-{
-    position: relative;
-    left: 35%;
-    top: 16%;
-}
-#img3
-{
-    position: relative;
-    left: 38%;
-    top: 16%;
-}
-#img4
-{
-    position: relative;
-    left: 36%;
-    top: 16%;
-}
 #text12
 {
     position: relative;
@@ -201,4 +188,30 @@
     left: 20%;
     top: 30%;
     color: white;
+}
+/* = iconos
+-------------------------------------------------------------------*/
+#img1
+{
+    position: relative;
+    left: 40%;
+    top: 16%;
+}
+#img2
+{
+    position: relative;
+    left: 35%;
+    top: 16%;
+}
+#img3
+{
+    position: relative;
+    left: 38%;
+    top: 16%;
+}
+#img4
+{
+    position: relative;
+    left: 36%;
+    top: 16%;
 }
