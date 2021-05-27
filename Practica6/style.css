@@ -16,6 +16,9 @@
     /* =NAV
     -------------------------------------------------- */
     #nav a{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
         text-decoration: none;
         color: white;
         font-size: 1.2rem;
@@ -24,10 +27,11 @@
         display: flex;
         width: 100%;
         height: 50px;
-        place-self: start end;
         background-color: rebeccapurple;
     }
     #nav div{
+        display: flex;
+        align-items: center;
         cursor: pointer;
         height: 50px;
         padding-left: 5%;
@@ -42,18 +46,29 @@
         background: linear-gradient(180deg, rgba(135,34,181,1) 1%, rgba(87,84,188,1) 57%);     
         height: 600px;
         width: 100%;
+        display: grid;
+        grid-template-columns: 15% 10% 10% 10% 10% 10% 10% 10% 15%;
+        grid-template-rows: 12% 12% 25% 12% 12% 27%;
     }
     #firstBanner div:nth-child(1){
         width: 100%;
         height: 100%;
         background-image:url("./img/blue.jpg");
         background-repeat: no-repeat ;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 5;
     }
     #firstBanner div:nth-child(2){
         width: 100%;
         height: 100%;
         background-image:url("./img/gato.jpg");
         background-repeat: no-repeat ;
+        grid-column-start: 7;
+        grid-column-end: 10;
+        grid-row-start: 3;
+        grid-row-end: 8;
     }
     #firstBanner div:nth-child(3){
         color: black;
@@ -62,15 +77,26 @@
         padding-left: 30%;
         width: 100%;
         height: 100%;
-        background: white;     
+        background: white;
+        grid-column-start: 4;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 6;     
     }
     #firstBanner img{
         width: 100%;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 6;
     }
     /* =FEATURES
     -----------------------------------------------*/
     #features{
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
     #features div{
         text-align: center;
